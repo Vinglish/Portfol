@@ -1,0 +1,245 @@
+body{
+	margin: 0 auto;
+	max-width: 2000px;
+	font-family: sans-serif;
+}
+header{
+	background: url(../img/road.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+ul{
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	background: rgba(40,40,40, 0.7);
+	margin:0;
+	padding: 0;
+}
+a{
+	padding:10px;
+	display: block;
+	height:100%;
+	text-decoration: none;
+	color:#fff;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+li:hover{
+	
+	outline: 1px solid white;
+	outline-offset: -2px;
+	
+}
+.aboutMe{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h1{
+	margin:0;
+	padding-top:180px;
+	font-size: 5em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #fff;
+	-webkit-text-stroke: 1.5px black;
+}
+.aboutMe div {
+	margin-top:30px;
+	margin-bottom: 50px;
+	width:50%;
+	text-align: center;
+	font-size:2em;
+	font-weight: bold;
+	color:white;
+	text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+
+
+}
+hr{
+	background: white;
+	width:50%;
+}
+.icons{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 60px;
+
+}
+.icons a{
+	margin:10px;
+
+}
+
+#about{
+	background: rgb(60,60,60);
+}
+.brain{
+	float:left;
+	padding-top: 100px;
+	margin-left:12%;
+}
+#general{
+	margin-left:30%;
+	padding-top:8%;
+	padding-bottom: 6%;
+}
+#general h3{
+	color:#fff;
+	margin-top:0;
+}
+#general p{
+	color:rgb(180,180,180);
+}
+.grey p{
+	width:70%;
+	line-height: 1.6;
+}
+.resume p{
+	line-height: 1.8;
+}
+.resume{
+	margin-top: 30px;
+	display: flex;
+}
+.resume button{
+	border:none;
+	font-size: 20px;
+	padding:10px 6px;
+	border-radius: 5px;
+	margin-left: 50px;
+	outline: none;
+	cursor: pointer;
+}
+.education{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+.text div{
+	color:rgb(130,130,130);
+	width:60%;
+	margin: 30px 0px;
+	line-height: 1.6;
+}
+.educ{
+	padding-top: 40px;
+	text-align: center;
+	width:70%;
+	font-weight: bold;
+}
+.educ hr{
+	border: none;
+	height: 1px;
+	background: blue;
+	width: 100px;
+}
+#hrer{
+	width: 70px;
+}
+#myWork{
+	background: rgb(196,200,226);
+}
+#myWork h3{
+	text-align: center;
+	margin:0;
+	color:rgb(120,120,120);
+	padding: 30px 0;
+}
+.images{
+	margin-left: 14%;
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 40px;
+}
+.images div{
+	margin:20px;
+}
+#registration{
+	background: rgb(40,40,40);
+}
+.first{
+	display: flex;
+	justify-content: center;
+}
+
+.first p{
+	margin-left:150px;
+	margin-top: 0px;
+	width:60%;
+	font-size: 19px;
+	color:rgb(120,120,120);
+	line-height: 1.6;
+}
+.picture{
+	padding-top: 20px;
+	display: block;
+}
+#reg{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+#inputs{
+	margin-left:80px;
+	width:400px;
+}
+label{
+	color:rgb(120,120,120);
+	font-size: 22px;
+	width:40%;
+	display: inline-block;
+	margin-top:30px;
+}
+input{
+	padding:12px 20px;
+	outline: none;
+	border:none;
+}
+button{
+	border:none;
+	color:rgb(40,40,40);
+	padding:10px 15px;
+	cursor:pointer;
+	font-size:18px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-left:220px;
+}
+.content{
+	width: 40%;
+}
+.content h3{
+	color:#fff;
+}
+.content p {
+	color:rgb(120,120,120);
+	line-height: 1.6;
+}
+footer{
+	background: rgb(20,20,20);
+}
+.social{
+	display: flex;
+	justify-content: center;
+}
+.social a{
+	margin:15px;
+}
+.end{
+	text-align: center;
+	color:rgb(60,60,60);
+	padding-bottom: 10px;
+}
+
